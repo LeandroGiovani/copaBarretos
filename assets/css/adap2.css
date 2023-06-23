@@ -1,0 +1,100 @@
+@media screen and (max-width: 665px){
+    .shape{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .shape{
+        width: 70%;
+    }
+
+    .checkboxf{
+        align-items: center;
+    }
+
+    .checkbox-wrapper-31{
+        min-width: 20px;
+        min-height: 20px;
+    }
+}
+
+@media screen and (max-width: 265px){
+    .shape{
+        width: 60%;
+    }
+
+    .titulo-incricao{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 215px){
+    .titulo-incricao{
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-height: 680px){
+    .titulo-incricao{
+        margin: 0;
+    }
+}
+
+@media screen and (max-height: 640px){
+    .input-group{
+        margin: 0;
+    }
+
+    .submit-form{
+        margin-bottom: 5px;
+    }
+
+    .shape{
+        padding: 20px;
+        min-height: 450px;
+    }
+}
+
+@media screen and (max-height: 576px){
+    .checkboxf{
+        margin: 10px;
+    }
+}
+
+@media screen and (max-height: 555px){
+    form{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .shape{
+        min-height: auto;
+        padding: 15px;
+    }
+
+    .input-group{
+        justify-content: space-evenly;
+        width: 45%;
+        flex-wrap: wrap;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .titulo-incricao{
+        margin: 0 auto;
+    }
+
+    .submit-div{
+        width: 45%;
+        margin: 0;
+    }
+
+    .iconSpan{
+        width: 80px;
+        height: 80px;
+        padding: 8px;
+    }
+}

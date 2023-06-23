@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/incricao.css">
+    <link rel="stylesheet" href="assets/css/adap.css">
+    <link rel="stylesheet" href="assets/css/adap2.css">
+    <link rel="shortcut icon" href="assets/img/cbIcon.png" type="image/x-icon">
+    <title>Copa Barretos</title>
+</head>
+<body id="inicial" class="body">
+    <div class="menu">
+        <div class="switchdark">
+            <label class="switch-container" for="switchd">
+                <input type="checkbox" x-icon id="switchd" onclick="darkmode()">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <a href="index.html" class="cb-nav">COPA BARRETOS</a>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="nav-link1" href="index.html">Início</a></li>
+                <li class="nav-item"><a class="nav-link2" href="index.html#sobre">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link3" href="index.html#modalidades">Modalidades</a></li>
+                <li class="nav-item"><a class="nav-link4" href="index.html#contato">Contato</a></li>
+                <li class="nav-item"><a class="nav-link5" href="#" id="incricaolink">Inscrições</a></li>
+            </ul>
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </div>
+    <div class="section-form">
+        <div class="layout-form">
+            <div class="shape uianimated delay-200" id="shape">
+                <span class="iconSpan uianimated delay-300">
+                    <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="80" height="80">
+                        <title>download</title>
+                        <defs>
+                            <image  width="412" height="326" id="img1" href="data:image/png;base64,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"/>
+                        </defs>
+                        <style>
+                        </style>
+                        <use id="Camada 1" href="#img1" x="50" y="93"/>
+                    </svg>
+                </span>
+                <h3 class="titulo-incricao uianimated delay-300">Formulário de inscrição</h3>
+                <form action="#" method="get" class="uianimeted delay-400">
+                    <p></p>
+                    <div class="input-group">
+                        <label for="nome">Nome</label>
+                        <input required type="text" placeholder="Escreva seu nome" name="nome" class="input-form">
+                    </div>
+                    <div class="input-group">
+                        <label for="data">Data de nascimento</label>
+                        <input required type="text" name="data" placeholder="dd/mm/aaaa" class="input-form" id="inputdata" oninput="this.value = this.value.replace(/[^/0-9]/g, '')" maxlength="10">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input required type="email" placeholder="Endereço de email" name="email" class="input-form">
+                    </div>
+                    <div class="input-group">
+                        <label for="tel">Telefone</label>
+                        <input required type="text" placeholder="(xx) xxxxx-xxxx" name="tel" class="input-form" id="inputtel" oninput="this.value = this.value.replace(/[^() 0-9-]/g, '')" maxlength="15">
+                    </div>
+                    <div class="checkboxf">
+                        <div class="checkbox-wrapper-31">
+                            <input type="checkbox" required>
+                            <svg viewBox="0 0 35.6 35.6">
+                            <circle class="background" cx="17.8" cy="17.8" r="17.8"></circle>
+                            <circle class="stroke" cx="17.8" cy="17.8" r="14.37"></circle>
+                            <polyline class="check" points="11.78 18.12 15.55 22.23 25.17 12.87"></polyline>
+                            </svg>
+                        </div>
+                            <p>Li e aceito as<a download href="assets/public/Política e privacidade.pdf">políticas de privacidade</a></p>
+                    </div>
+                    <div>
+                        <a href="copaBarretos.html"><input type="submit" value="Enviar" class="submit-form" data-wait="Um momento"></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/incricao.js"></script>
+</body> 
+</html>
