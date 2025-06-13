@@ -1,21 +1,30 @@
-# Copa Barretos
+# 🏆 Copa Barretos
 
-## Status do Projeto
+## 📌 Status do Projeto
 
-Projeto finalizado
+✅ Projeto Finalizado
 
-## Descrição do Projeto
+---
 
-Copa Barretos é um projeto desenvolvido para divulgar os jogos de um campeonato esportivo fictício. O projeto foi proposto como trabalho do primeiro semestre do Curso Técnico de Análise e Desenvolvimento de Sistemas do SENAI.
+## 📄 Descrição
 
-## Tecnologias Utilizadas
+**Copa Barretos** é um site desenvolvido para divulgar os jogos e informações de um campeonato esportivo fictício, com o objetivo de simular a cobertura de um evento real.  
+Este projeto foi proposto como trabalho do **1º semestre** do **Curso Técnico de Análise e Desenvolvimento de Sistemas** do **SENAI**.
 
-- HTML
-- CSS
-- JavaScript
+A aplicação apresenta uma interface clara e organizada, com foco na apresentação de partidas, tabelas e dados relevantes do torneio.
 
-## Acesse a Copa Barretos
+---
 
-[Acesse a Copa Barretos](https://fancy-sorbet-cd22c3.netlify.app/)
+## 🛠️ Tecnologias Utilizadas
 
-Vale ressaltar que a hospedagem do site é gratuita, então pode levar alguns minutos para carregar. Caso a página não carregue imediatamente, por favor, tente recarregar a tela.
+- **HTML5** – Estruturação do conteúdo
+- **CSS3** – Estilização e layout da página
+- **JavaScript** – Funcionalidades interativas no front-end
+
+---
+
+## 🌐 Acesse o Site
+
+🔗 [Clique aqui para acessar a Copa Barretos](https://fancy-sorbet-cd22c3.netlify.app/)
+
+> ⚠️ O site está hospedado em uma plataforma gratuita (Netlify), o que pode causar um pequeno atraso no carregamento inicial. Se necessário, atualize a página.
